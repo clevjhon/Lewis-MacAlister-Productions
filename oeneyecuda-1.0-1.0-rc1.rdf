@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:doaml="http://ns.balbinus.net/doaml#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:lp="https://launchpad.net/rdf/launchpad#" xmlns:wot="http://xmlns.com/wot/0.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <lp:ProductRelease>
+        <lp:specifiedAt rdf:resource="/oeneyecuda/1.0-rc1/+rdf"/>
+        <lp:version>1.0-rc1</lp:version>
+        <lp:title>oeneyeCUDA 1.0-rc1</lp:title>
+        <lp:shortDescription></lp:shortDescription>
+        <lp:releaseNotes>Release Candidate 1 for oeneyeCUDA 1.0, focusing on early integration testing of host-to-device memory structures, initial parallel kernel dispatch routines, and packaging verification prior to final tagged release.
+</lp:releaseNotes>
+        <lp:changelog>oeneyeCUDA (1.0-rc1) testing; urgency=medium
+
+  * Prepared initial release candidate for the 1.0 release candidate series.
+  * Added preliminary host memory allocation and execution abstractions.
+  * Verified build pipelines and automated package deployment specs.
+
+ -- Kai O. KETELHUT &lt;oeneye@launchpad.net&gt;  Wed, 15 Oct 2026 08:31:00 +0000
+
+https://doi.org/10.5281/zenodo.23351757 tar gz
+</lp:changelog>
+        <lp:creationDate>2026-10-13 18:57:52 UTC</lp:creationDate>
+        <lp:inProductSeries>
+            <lp:ProductSeries>
+                <lp:specifiedAt rdf:resource="/oeneyecuda/1.0/+rdf"/>
+            </lp:ProductSeries>
+        </lp:inProductSeries>
+        <lp:owner>
+            <foaf:Agent>
+                <foaf:Account rdf:resource="/~oeneye/+rdf"/>
+            </foaf:Agent>
+        </lp:owner>
+    </lp:ProductRelease>
+</rdf:RDF>
